@@ -19,12 +19,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
  `getFullResponseFromAPI(success)`
 When the argument is:
-<ul>
-<li>`true`</li>
+- `true`:
 resolve the promise by passing an object with 2 attributes:
-<ul>
-<li>`status: `200`</li>
-<li>`body`: `'Success'`</li>
-</ul>
-<ul>
-<li>`false`:</li><ul><li>reject the promise with an error object with the message `The fake API is not working currently` </li><ul> </ul></ul> |
+- `status: `200`
+- `body`: `'Success'`
+- `false`:reject the promise with an error object with the message `The fake API is not working currently` |
