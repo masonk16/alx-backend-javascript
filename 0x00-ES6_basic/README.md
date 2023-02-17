@@ -30,3 +30,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 | 10. For...of Loops | 10-loops.js | Rewrite the function appendToEachArrayValue to use ES6’s for...of operator. And don’t forget that var is not ES6-friendly. |
 | 11. Iterator | 11-createEmployeesObject.js | Write a function named createEmployeesObject that will receive two arguments: departmentName (String). employees (Array of Strings) |
 | 12. Let's create a report object | 12-createReportObject.js | Write a function named createReportObject whose parameter, employeesList, is the return value of the previous function createEmployeesObject. |
+| 100-createIteratorObject.js | 100-createIteratorObject.js | Write a function named createIteratorObject, that will take into argument a report Object created with the previous function createReportObject. This function will return an iterator to go through every employee in every department. |
+| 14. Iterate through object | 101-iterateThroughObject.js | Finally, write a function named iterateThroughObject. The function’s parameter reportWithIterator is the return value from createIteratorObject. |
